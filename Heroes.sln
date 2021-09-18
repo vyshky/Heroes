@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesApp", "HeroesApp\HeroesApp.csproj", "{D309CE94-5B88-456D-81DC-99447A07C64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesLib", "HeroesLib\HeroesLib.csproj", "{992C114C-BC9A-4AE9-8CA5-5F2156B8D287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D309CE94-5B88-456D-81DC-99447A07C64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D309CE94-5B88-456D-81DC-99447A07C64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D309CE94-5B88-456D-81DC-99447A07C64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D309CE94-5B88-456D-81DC-99447A07C64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{992C114C-BC9A-4AE9-8CA5-5F2156B8D287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992C114C-BC9A-4AE9-8CA5-5F2156B8D287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992C114C-BC9A-4AE9-8CA5-5F2156B8D287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992C114C-BC9A-4AE9-8CA5-5F2156B8D287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
