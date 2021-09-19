@@ -33,6 +33,15 @@ namespace HeroesApp
                     }
                     break;
                 case "2":
+                    switch (selectSpecialization)
+                    {
+                        case "1":
+                            hero = new OrkMage();
+                            break;
+                        case "2":
+                            hero = new OrkWarior();
+                            break;
+                    }
                     break;
             }
             

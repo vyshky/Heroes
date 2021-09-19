@@ -3,21 +3,20 @@ using HeroesLib.Specializations;
 
 namespace HeroesLib
 {
-    public class HumanWarior : Human, IWarior
+    public class OrkWarior : Ork, IWarior
     {
         public int Strength { get; set; }
 
-        public HumanWarior() : base()
+        public OrkWarior() : base()
         {
-            Armor = 20;
+            Armor = 50;
             Strength = 50;
         }
 
-        public HumanWarior(string name) : base(name)
+        public OrkWarior(string name) : base(name)
         {
-            Armor = 20;
+            Armor = 50;
             Strength = 50;
         }
-        
     }
 }
